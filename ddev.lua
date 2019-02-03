@@ -10,24 +10,24 @@ local function flags(...)
 end
 
 local ddev_basic_options = {
-	"--help", "-h",
-	"--json-output", "-j",
+    "--help", "-h",
+    "--json-output", "-j",
 }
 
 local ddev_basic_parser = clink.arg.new_parser()
 ddev_basic_parser:set_flags(ddev_basic_options)
 ddev_basic_parser:set_arguments({
-	"auth",
-	"auth-pantheon",
-	"composer",
-	"config",
-	"debug",
-	"describe",
-	"exec",
-	"export-db",
-	"help",
-	"hostname",
-	"import-db",
+    "auth",
+    "auth-pantheon",
+    "composer",
+    "config",
+    "debug",
+    "describe",
+    "exec",
+    "export-db",
+    "help",
+    "hostname",
+    "import-db",
     "import-files",
     "list",
     "logs",
